@@ -6,11 +6,11 @@ const AdminPage = () => {
       {/*Left*/}
       <div className="w-full lg:w-2/3">
       {/* UserCards */}
-      <div className="flex gap-4 justify-between">
-        <UserCard type="admin" />
-        <UserCard type="student" />
-        <UserCard type="teacher" />
-        <UserCard type="stuff" />
+      <div className="flex gap-4 justify-between flex-wrap">
+        <UserCard type="Admin" />
+        <UserCard type="Student" />
+        <UserCard type="Teacher" />
+        <UserCard type="Stuff" />
       </div>
 
       </div>
